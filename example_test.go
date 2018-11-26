@@ -11,7 +11,7 @@ func Example() {
 	n := 1.234567890
 	for i := 0; i <= 24; i++ {
 		x := n * math.Pow(10.0, float64(i))
-		fmt.Printf("%15e %s\n", x, qnum.F(x))
+		fmt.Printf("%e %s\n", x, qnum.F(x))
 	}
 	// Output:
 	// 1.234568e+00 1.2

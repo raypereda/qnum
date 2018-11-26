@@ -23,7 +23,12 @@ func F(input float64) string {
 	}
 
 	bignum := scale[exp]
-	digits := fmt.Sprintf("%.0f", f)
+	var digits string
+	if f < 10 {
+		digits = fmt.Sprintf("%.1f", f)
+	} else {
+		digits = fmt.Sprintf("%.0f", f)
+	}
 	return digits + " " + bignum
 }
 
