@@ -1,2 +1,2 @@
 # qnum
-quotes numbers are easily quotable numbers that have 1 or 2 significant plus digits short scale words like million
+qnums are easily quotable numbers that have 1 or 2 significant digits plus short scale words like thousand or million.
